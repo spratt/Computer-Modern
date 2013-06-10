@@ -10,6 +10,9 @@
     <link rel="stylesheet" type="text/css" 
           href="http://spratt.github.io/EasyCSS/minimalist.css" />
     <style>
+      p {
+        line-height: 1.3em;
+      }
       body {
         max-width: 30em;
         margin: 0 auto;
@@ -34,7 +37,7 @@
                url('cmunsl-webfont.ttf') format('truetype'),
                url('cmunsl-webfont.svg#cmu_serif_extraromanslanted') format('svg');
           font-weight: normal;
-          font-style: italic, oblique;
+          font-style: italic;
       }
       @font-face {
           font-family: "Computer Modern Serif";
@@ -44,7 +47,7 @@
                url('cmunbl-webfont.ttf') format('truetype'),
                url('cmunbl-webfont.svg#cmu_serif_extraboldslanted') format('svg');
           font-weight: bold;
-          font-style: italic, oblique;
+          font-style: italic;
       }
       @font-face {
           font-family: "Computer Modern Serif";
@@ -56,10 +59,54 @@
           font-weight: bold;
           font-style: normal;
       }
+      
+        @font-face {
+          font-family: "Computer Modern Sans";
+          src: url('http://spratt.github.io/Computer-Modern/cmunbxo-webfont.eot');
+          src: url('http://spratt.github.io/Computer-Modern/cmunbxo-webfont.eot?#iefix') format('embedded-opentype'),
+               url('http://spratt.github.io/Computer-Modern/cmunbxo-webfont.woff') format('woff'),
+               url('http://spratt.github.io/Computer-Modern/cmunbxo-webfont.ttf') format('truetype'),
+               url('http://spratt.github.io/Computer-Modern/cmunbxo-webfont.svg#cmu_brightboldoblique') format('svg');
+          font-weight: bold;
+          font-style: italic, oblique;
+      }
+      @font-face {
+          font-family: "Computer Modern Sans";
+          src: url('http://spratt.github.io/Computer-Modern/cmunsi-webfont.eot');
+          src: url('http://spratt.github.io/Computer-Modern/cmunsi-webfont.eot?#iefix') format('embedded-opentype'),
+               url('http://spratt.github.io/Computer-Modern/cmunsi-webfont.woff') format('woff'),
+               url('http://spratt.github.io/Computer-Modern/cmunsi-webfont.ttf') format('truetype'),
+               url('http://spratt.github.io/Computer-Modern/cmunsi-webfont.svg#cmu_sans_serifoblique') format('svg');
+          font-weight: normal;
+          font-style: italic, oblique;
+      }
+      @font-face {
+          font-family: "Computer Modern Sans";
+          src: url('http://spratt.github.io/Computer-Modern/cmunss-webfont.eot');
+          src: url('http://spratt.github.io/Computer-Modern/cmunss-webfont.eot?#iefix') format('embedded-opentype'),
+               url('http://spratt.github.io/Computer-Modern/cmunss-webfont.woff') format('woff'),
+               url('http://spratt.github.io/Computer-Modern/cmunss-webfont.ttf') format('truetype'),
+               url('http://spratt.github.io/Computer-Modern/cmunss-webfont.svg#cmu_sans_serifmedium') format('svg');
+          font-weight: normal;
+          font-style: normal;
+      }
+      @font-face {
+          font-family: "Computer Modern Sans";
+          src: url('http://spratt.github.io/Computer-Modern/cmunsx-webfont.eot');
+          src: url('http://spratt.github.io/Computer-Modern/cmunsx-webfont.eot?#iefix') format('embedded-opentype'),
+               url('http://spratt.github.io/Computer-Modern/cmunsx-webfont.woff') format('woff'),
+               url('http://spratt.github.io/Computer-Modern/cmunsx-webfont.ttf') format('truetype'),
+               url('http://spratt.github.io/Computer-Modern/cmunsx-webfont.svg#cmu_sans_serifbold') format('svg');
+          font-weight: bold;
+          font-style: normal;
+      }
 
 	  body {
 	    font-family: "Computer Modern Serif", serif;
 	  }
+      .sans {
+        font-family: "Computer Modern Sans", sans-serif;
+      }
 	</style>
   </head>
   <body>
@@ -69,6 +116,10 @@
       Making it easy to use the Computer Modern font in web pages.
     </p>
     <h2>Computer Modern</h2>
+    <p>
+      Computer Modern Sans is a beautiful <i>serifed</i> <b>font</b>.
+      It is the default font for TeX and LaTeX.
+    </p>
     <pre><code>
 &lt;style&gt;
   @font-face {
@@ -89,7 +140,7 @@
            url('http://spratt.github.io/Computer-Modern/cmunsl-webfont.ttf') format('truetype'),
            url('http://spratt.github.io/Computer-Modern/cmunsl-webfont.svg#cmu_serif_extraromanslanted') format('svg');
       font-weight: normal;
-      font-style: italic, oblique;
+      font-style: italic;
   }
   @font-face {
       font-family: "Computer Modern Serif";
@@ -99,7 +150,7 @@
            url('http://spratt.github.io/Computer-Modern/cmunbl-webfont.ttf') format('truetype'),
            url('http://spratt.github.io/Computer-Modern/cmunbl-webfont.svg#cmu_serif_extraboldslanted') format('svg');
       font-weight: bold;
-      font-style: italic, oblique;
+      font-style: italic;
   }
   @font-face {
       font-family: "Computer Modern Serif";
@@ -117,31 +168,34 @@
   }
 &lt;/style&gt;
     </code></pre>
-    <h2>Computer Modern Sans</h2>
+    <h2 class="sans">Computer Modern Sans</h2>
+    <p class="sans">
+      Computer Modern Sans is a lovely <i>sans-serif</i> <b>font</b>.
+    </p>
     <pre><code>
 &lt;style&gt;
   @font-face {
-      font-family: 'Computer Modern Sans';
+      font-family: "Computer Modern Sans";
       src: url('http://spratt.github.io/Computer-Modern/cmunbxo-webfont.eot');
       src: url('http://spratt.github.io/Computer-Modern/cmunbxo-webfont.eot?#iefix') format('embedded-opentype'),
            url('http://spratt.github.io/Computer-Modern/cmunbxo-webfont.woff') format('woff'),
            url('http://spratt.github.io/Computer-Modern/cmunbxo-webfont.ttf') format('truetype'),
            url('http://spratt.github.io/Computer-Modern/cmunbxo-webfont.svg#cmu_brightboldoblique') format('svg');
       font-weight: bold;
-      font-style: italic, oblique;
+      font-style: italic;
   }
   @font-face {
-      font-family: 'Computer Modern Sans';
+      font-family: "Computer Modern Sans";
       src: url('http://spratt.github.io/Computer-Modern/cmunsi-webfont.eot');
       src: url('http://spratt.github.io/Computer-Modern/cmunsi-webfont.eot?#iefix') format('embedded-opentype'),
            url('http://spratt.github.io/Computer-Modern/cmunsi-webfont.woff') format('woff'),
            url('http://spratt.github.io/Computer-Modern/cmunsi-webfont.ttf') format('truetype'),
            url('http://spratt.github.io/Computer-Modern/cmunsi-webfont.svg#cmu_sans_serifoblique') format('svg');
       font-weight: normal;
-      font-style: italic, oblique;
+      font-style: italic;
   }
   @font-face {
-      font-family: 'Computer Modern Sans';
+      font-family: "Computer Modern Sans";
       src: url('http://spratt.github.io/Computer-Modern/cmunss-webfont.eot');
       src: url('http://spratt.github.io/Computer-Modern/cmunss-webfont.eot?#iefix') format('embedded-opentype'),
            url('http://spratt.github.io/Computer-Modern/cmunss-webfont.woff') format('woff'),
@@ -151,7 +205,7 @@
       font-style: normal;
   }
   @font-face {
-      font-family: 'Computer Modern Sans';
+      font-family: "Computer Modern Sans";
       src: url('http://spratt.github.io/Computer-Modern/cmunsx-webfont.eot');
       src: url('http://spratt.github.io/Computer-Modern/cmunsx-webfont.eot?#iefix') format('embedded-opentype'),
            url('http://spratt.github.io/Computer-Modern/cmunsx-webfont.woff') format('woff'),
