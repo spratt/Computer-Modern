@@ -11,28 +11,28 @@
           href="http://spratt.github.io/EasyCSS/readabilitysans.css" />
     <style>
       @font-face {
-	    font-family: "Computer Modern Sans";
-	    src: url('http://spratt.github.io/Computer-Modern/cmunss.otf');
+	    font-family: "Computer Modern";
+	    src: url('http://spratt.github.io/Computer-Modern/cmunrm.otf');
 	  }
 	  @font-face {
-	    font-family: "Computer Modern Sans";
-	    src: url('http://spratt.github.io/Computer-Modern/cmunsx.otf');
+	    font-family: "Computer Modern";
+	    src: url('http://spratt.github.io/Computer-Modern/cmunobx.otf');
 	    font-weight: bold;
 	  }
 	  @font-face {
-	    font-family: "Computer Modern Sans";
-	    src: url('http://spratt.github.io/Computer-Modern/cmunsi.otf');
+	    font-family: "Computer Modern";
+	    src: url('http://spratt.github.io/Computer-Modern/cmunsl.otf');
 	    font-style: italic, oblique;
 	  }
 	  @font-face {
-	    font-family: "Computer Modern Sans";
-	    src: url('http://spratt.github.io/Computer-Modern/cmunbxo.otf');
+	    font-family: "Computer Modern";
+	    src: url('http://spratt.github.io/Computer-Modern/cmunbl.otf');
 	    font-weight: bold;
 	    font-style: italic, oblique;
 	  }
 
 	  body {
-	  font-family: "Computer Modern Sans", sans-serif;
+	    font-family: "Computer Modern", serif;
 	  }
 	</style>
   </head>
@@ -40,12 +40,41 @@
     <h1>Computer-Modern</h1>
     
     <p>
-      Making it easy to use a web-optimized version of Computer Modern
-      in web pages.  Simply include the following CSS:
+      Making it easy to use the Computer Modern font in web pages.
     </p>
+    <h2>Computer Modern</h2>
     <pre><code>
 &lt;style&gt;
-  @font-face {
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://spratt.github.io/Computer-Modern/cmunnrm.otf');
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://spratt.github.io/Computer-Modern/cmunobx.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://spratt.github.io/Computer-Modern/cmunsl.otf');
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://spratt.github.io/Computer-Modern/cmunbl.otf');
+  font-weight: bold;
+  font-style: italic, oblique;
+}
+
+body {
+  font-family: "Computer Modern", serif;
+}
+&lt;/style&gt;
+    </code></pre>
+    <h2>Computer Modern Sans</h2>
+    <pre><code>
+&lt;style&gt;
+@font-face {
   font-family: "Computer Modern Sans";
   src: url('http://spratt.github.io/Computer-Modern/cmunss.otf');
 }
