@@ -29,7 +29,7 @@ web page:
   }
 
   body {
-    font-family: "Computer Modern", sans-serif;
+    font-family: "Computer Modern", serif;
   }
 </style>
 ```
