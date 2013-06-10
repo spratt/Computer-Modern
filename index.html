@@ -17,28 +17,48 @@
     </style>
     <style>
       @font-face {
-	    font-family: "Computer Modern";
-	    src: url('http://spratt.github.io/Computer-Modern/cmunrm.otf');
-	  }
-	  @font-face {
-	    font-family: "Computer Modern";
-	    src: url('http://spratt.github.io/Computer-Modern/cmunrb.otf');
-	    font-weight: bold;
-	  }
-	  @font-face {
-	    font-family: "Computer Modern";
-	    src: url('http://spratt.github.io/Computer-Modern/cmunsl.otf');
-	    font-style: italic, oblique;
-	  }
-	  @font-face {
-	    font-family: "Computer Modern";
-	    src: url('http://spratt.github.io/Computer-Modern/cmunbl.otf');
-	    font-weight: bold;
-	    font-style: italic, oblique;
-	  }
+        font-family: "Computer Modern Serif";
+        src: url('cmunrm-webfont.eot');
+        src: url('cmunrm-webfont.eot?#iefix') format('embedded-opentype'),
+             url('cmunrm-webfont.woff') format('woff'),
+             url('cmunrm-webfont.ttf') format('truetype'),
+             url('cmunrm-webfont.svg#cmu_serifroman') format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+      @font-face {
+          font-family: "Computer Modern Serif";
+          src: url('cmunsl-webfont.eot');
+          src: url('cmunsl-webfont.eot?#iefix') format('embedded-opentype'),
+               url('cmunsl-webfont.woff') format('woff'),
+               url('cmunsl-webfont.ttf') format('truetype'),
+               url('cmunsl-webfont.svg#cmu_serif_extraromanslanted') format('svg');
+          font-weight: normal;
+          font-style: italic, oblique;
+      }
+      @font-face {
+          font-family: "Computer Modern Serif";
+          src: url('cmunbl-webfont.eot');
+          src: url('cmunbl-webfont.eot?#iefix') format('embedded-opentype'),
+               url('cmunbl-webfont.woff') format('woff'),
+               url('cmunbl-webfont.ttf') format('truetype'),
+               url('cmunbl-webfont.svg#cmu_serif_extraboldslanted') format('svg');
+          font-weight: bold;
+          font-style: italic, oblique;
+      }
+      @font-face {
+          font-family: "Computer Modern Serif";
+          src: url('cmunbx-webfont.eot');
+          src: url('cmunbx-webfont.eot?#iefix') format('embedded-opentype'),
+               url('cmunbx-webfont.woff') format('woff'),
+               url('cmunbx-webfont.ttf') format('truetype'),
+               url('cmunbx-webfont.svg#cmu_serifbold') format('svg');
+          font-weight: bold;
+          font-style: normal;
+      }
 
 	  body {
-	    font-family: "Computer Modern", serif;
+	    font-family: "Computer Modern Serif", serif;
 	  }
 	</style>
   </head>
@@ -52,28 +72,48 @@
     <pre><code>
 &lt;style&gt;
   @font-face {
-    font-family: "Computer Modern";
-    src: url('http://spratt.github.io/Computer-Modern/cmunnrm.otf');
+    font-family: "Computer Modern Serif";
+    src: url('cmunrm-webfont.eot');
+    src: url('cmunrm-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cmunrm-webfont.woff') format('woff'),
+         url('cmunrm-webfont.ttf') format('truetype'),
+         url('cmunrm-webfont.svg#cmu_serifroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
   }
   @font-face {
-    font-family: "Computer Modern";
-    src: url('http://spratt.github.io/Computer-Modern/cmunobx.otf');
-    font-weight: bold;
+      font-family: "Computer Modern Serif";
+      src: url('cmunsl-webfont.eot');
+      src: url('cmunsl-webfont.eot?#iefix') format('embedded-opentype'),
+           url('cmunsl-webfont.woff') format('woff'),
+           url('cmunsl-webfont.ttf') format('truetype'),
+           url('cmunsl-webfont.svg#cmu_serif_extraromanslanted') format('svg');
+      font-weight: normal;
+      font-style: italic, oblique;
   }
   @font-face {
-    font-family: "Computer Modern";
-    src: url('http://spratt.github.io/Computer-Modern/cmunsl.otf');
-    font-style: italic, oblique;
+      font-family: "Computer Modern Serif";
+      src: url('cmunbl-webfont.eot');
+      src: url('cmunbl-webfont.eot?#iefix') format('embedded-opentype'),
+           url('cmunbl-webfont.woff') format('woff'),
+           url('cmunbl-webfont.ttf') format('truetype'),
+           url('cmunbl-webfont.svg#cmu_serif_extraboldslanted') format('svg');
+      font-weight: bold;
+      font-style: italic, oblique;
   }
   @font-face {
-    font-family: "Computer Modern";
-    src: url('http://spratt.github.io/Computer-Modern/cmunbl.otf');
-    font-weight: bold;
-    font-style: italic, oblique;
+      font-family: "Computer Modern Serif";
+      src: url('cmunbx-webfont.eot');
+      src: url('cmunbx-webfont.eot?#iefix') format('embedded-opentype'),
+           url('cmunbx-webfont.woff') format('woff'),
+           url('cmunbx-webfont.ttf') format('truetype'),
+           url('cmunbx-webfont.svg#cmu_serifbold') format('svg');
+      font-weight: bold;
+      font-style: normal;
   }
   
   body {
-    font-family: "Computer Modern", serif;
+    font-family: "Computer Modern Serif", serif;
   }
 &lt;/style&gt;
     </code></pre>
@@ -81,28 +121,44 @@
     <pre><code>
 &lt;style&gt;
   @font-face {
-    font-family: "Computer Modern Sans";
-    src: url('http://spratt.github.io/Computer-Modern/cmunss.otf');
+      font-family: 'Computer Modern Sans';
+      src: url('cmunbxo-webfont.eot');
+      src: url('cmunbxo-webfont.eot?#iefix') format('embedded-opentype'),
+           url('cmunbxo-webfont.woff') format('woff'),
+           url('cmunbxo-webfont.ttf') format('truetype'),
+           url('cmunbxo-webfont.svg#cmu_brightboldoblique') format('svg');
+      font-weight: bold;
+      font-style: italic, oblique;
   }
   @font-face {
-    font-family: "Computer Modern Sans";
-    src: url('http://spratt.github.io/Computer-Modern/cmunsx.otf');
-    font-weight: bold;
+      font-family: 'Computer Modern Sans';
+      src: url('cmunsi-webfont.eot');
+      src: url('cmunsi-webfont.eot?#iefix') format('embedded-opentype'),
+           url('cmunsi-webfont.woff') format('woff'),
+           url('cmunsi-webfont.ttf') format('truetype'),
+           url('cmunsi-webfont.svg#cmu_sans_serifoblique') format('svg');
+      font-weight: normal;
+      font-style: italic, oblique;
   }
   @font-face {
-    font-family: "Computer Modern Sans";
-    src: url('http://spratt.github.io/Computer-Modern/cmunsi.otf');
-    font-style: italic, oblique;
+      font-family: 'Computer Modern Sans';
+      src: url('cmunss-webfont.eot');
+      src: url('cmunss-webfont.eot?#iefix') format('embedded-opentype'),
+           url('cmunss-webfont.woff') format('woff'),
+           url('cmunss-webfont.ttf') format('truetype'),
+           url('cmunss-webfont.svg#cmu_sans_serifmedium') format('svg');
+      font-weight: normal;
+      font-style: normal;
   }
   @font-face {
-    font-family: "Computer Modern Sans";
-    src: url('http://spratt.github.io/Computer-Modern/cmunbxo.otf');
-    font-weight: bold;
-    font-style: italic, oblique;
-  }
-  
-  body {
-    font-family: "Computer Modern Sans", sans-serif;
+      font-family: 'Computer Modern Sans';
+      src: url('cmunsx-webfont.eot');
+      src: url('cmunsx-webfont.eot?#iefix') format('embedded-opentype'),
+           url('cmunsx-webfont.woff') format('woff'),
+           url('cmunsx-webfont.ttf') format('truetype'),
+           url('cmunsx-webfont.svg#cmu_sans_serifbold') format('svg');
+      font-weight: bold;
+      font-style: normal;
   }
 &lt;/style&gt;
     </code></pre>
