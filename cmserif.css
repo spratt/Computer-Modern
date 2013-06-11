@@ -2,6 +2,7 @@
     font-family: "Computer Modern Serif";
     src: url('http://spratt.github.io/Computer-Modern/cmunrm-webfont.eot');
     src: url('http://spratt.github.io/Computer-Modern/cmunrm-webfont.eot?#iefix') format('embedded-opentype'),
+    url('http://spratt.github.io/Computer-Modern/cmunrm.otf') format('opentype'),
     url('http://spratt.github.io/Computer-Modern/cmunrm-webfont.woff') format('woff'),
     url('http://spratt.github.io/Computer-Modern/cmunrm-webfont.ttf') format('truetype'),
     url('http://spratt.github.io/Computer-Modern/cmunrm-webfont.svg#cmu_serifroman') format('svg');
@@ -12,6 +13,7 @@
     font-family: "Computer Modern Serif";
     src: url('http://spratt.github.io/Computer-Modern/cmunsl-webfont.eot');
     src: url('http://spratt.github.io/Computer-Modern/cmunsl-webfont.eot?#iefix') format('embedded-opentype'),
+    url('http://spratt.github.io/Computer-Modern/cmunsl.otf') format('opentype'),
     url('http://spratt.github.io/Computer-Modern/cmunsl-webfont.woff') format('woff'),
     url('http://spratt.github.io/Computer-Modern/cmunsl-webfont.ttf') format('truetype'),
     url('http://spratt.github.io/Computer-Modern/cmunsl-webfont.svg#cmu_serif_extraromanslanted') format('svg');
@@ -22,6 +24,7 @@
     font-family: "Computer Modern Serif";
     src: url('http://spratt.github.io/Computer-Modern/cmunbl-webfont.eot');
     src: url('http://spratt.github.io/Computer-Modern/cmunbl-webfont.eot?#iefix') format('embedded-opentype'),
+    url('http://spratt.github.io/Computer-Modern/cmunbl.otf') format('opentype'),
     url('http://spratt.github.io/Computer-Modern/cmunbl-webfont.woff') format('woff'),
     url('http://spratt.github.io/Computer-Modern/cmunbl-webfont.ttf') format('truetype'),
     url('http://spratt.github.io/Computer-Modern/cmunbl-webfont.svg#cmu_serif_extraboldslanted') format('svg');
@@ -32,6 +35,7 @@
     font-family: "Computer Modern Serif";
     src: url('http://spratt.github.io/Computer-Modern/cmunbx-webfont.eot');
     src: url('http://spratt.github.io/Computer-Modern/cmunbx-webfont.eot?#iefix') format('embedded-opentype'),
+    url('http://spratt.github.io/Computer-Modern/cmunbx.otf') format('opentype'),
     url('http://spratt.github.io/Computer-Modern/cmunbx-webfont.woff') format('woff'),
     url('http://spratt.github.io/Computer-Modern/cmunbx-webfont.ttf') format('truetype'),
     url('http://spratt.github.io/Computer-Modern/cmunbx-webfont.svg#cmu_serifbold') format('svg');
