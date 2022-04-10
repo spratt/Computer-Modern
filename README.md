@@ -9,21 +9,21 @@ web page:
 <style>
   @font-face {
     font-family: "Computer Modern";
-    src: url('http://spratt.github.io/Computer-Modern/cmunss.otf');
+    src: url('https://spratt.github.io/Computer-Modern/cmunss.otf');
   }
   @font-face {
     font-family: "Computer Modern";
-    src: url('http://spratt.github.io/Computer-Modern/cmunsx.otf');
+    src: url('https://spratt.github.io/Computer-Modern/cmunsx.otf');
     font-weight: bold;
   }
   @font-face {
     font-family: "Computer Modern";
-    src: url('http://spratt.github.io/Computer-Modern/cmunsi.otf');
+    src: url('https://spratt.github.io/Computer-Modern/cmunsi.otf');
     font-style: italic, oblique;
   }
   @font-face {
     font-family: "Computer Modern";
-    src: url('http://spratt.github.io/Computer-Modern/cmunbxo.otf');
+    src: url('https://spratt.github.io/Computer-Modern/cmunbxo.otf');
     font-weight: bold;
     font-style: italic, oblique;
   }
